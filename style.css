@@ -1,44 +1,44 @@
 @import url('http://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('http://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-.main{
+.main {
     height: 100vh;
 }
-body{
+body {
     background: linear-gradient(to left, #7513a3, #4318b8)
 }
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.box, .prompt_box{
+.box, .prompt_box {
     width: 500px;
     height: 400px;
     background: white;
     flex-direction: column;
 }
 
-.box :is(h1, p, form){
+.box :is(h1, p, form) {
     margin: 8px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.box h1{
+.box h1 {
     font-family: 'Roboto', sans-serif;
 }
 
 
-form{
+form {
     flex-direction: column;
 } 
-form input{
+form input {
     margin-bottom: 8px;
     width: 350px;
     height:40px;
@@ -46,7 +46,7 @@ form input{
     outline: none;
     border-bottom: 1px solid #00000073;
 }
-.btn{
+.btn {
     width: 150px;
     height: 35px;
     font-size: 1.1rem ;
@@ -56,8 +56,8 @@ form input{
     background: #4318b8;
     color: #fff
 }
-.prompt_box,{
-    display: none;
+.prompt_box {
+    display : none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -65,7 +65,7 @@ form input{
     font-family: 'Open Sans', sans-serif;
 
 }
-.prompt_box h1{
+.prompt_box h1 {
     margin-bottom: 10px;
 }
 .prompt_box.active {
