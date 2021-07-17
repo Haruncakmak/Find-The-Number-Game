@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Find The Number Game</title>
+</head>
+<body>
+    <div class="main center">
+        <div class="box center">
+            <h1>Find The Number Game</h1>
+            <p>Guess A Number Between 0 to 100</p>
+            <P id="txt"></P>
+            <p id="chanceTxt"></p>
+            <form action="" class="center">
+                <input type="number" id="num">
+                <button type="submit" class="btn" id="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="prompt_box center" id="prompt_box">
+        <h1 id="prompt_txt"></h1>
+        <button type="submit" class="btn" onclick="play();">Play Again</button>
+    </div>
+
+    <script src="./app.js"></script>
+
+    
+</body>
+</html>
